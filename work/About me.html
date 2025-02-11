@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background-image: url(/images/oldtrafford.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: orange;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    justify-content: right;
+}
+.menue {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    list-style-type: none;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: orange;
+}
+.container {
+                    background: fixed;
+                    width: 360px;
+                    padding: 20px;
+                    border-radius: 10px;
+                    text-align: left;
+                    margin-top: 140px;
+                
+                  }
+                  .form-group {
+                    margin-bottom: 15px;
+                    
+                  }
+                  .form-group input {
+                    width: 100%;
+                    font-size: 20px;
+                    border-radius: 7px;
+                  }
+                  .regesterbtn {
+                    width: 30%;
+                    background-color: blue;
+                    color: white;
+                    font-size: 18px;
+                    border-radius: 7px;
+                    padding: 7px;
+                    align-items: center;
+                  }
+                  .form-group label{
+                    color: white;
+                  }
+                  .container h2{
+                    color: white;
+                  }
+
+.nav-linnks {
+  list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px
+}
+.nav-links li {
+            display: inline;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        ul{
+    list-style-type: none;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    justify-content: center;
+}
+ul li a:hover{
+    color: orange;
+}
+nav h1{
+  background: fixed;
+}
+</style>
+</head>
+<body>
+    <header class="nav">
+       <h1>This is my page</h1> 
+       <ul class="nav-links">
+        <li><a href="Education.html">Education</li>
+        <li><a href="Interest.html">Interest</a></li>
+        <li><a href="Experience.html">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+   <div class="main">
+     <div class="navbar">
+        <div class="icon">
+            <h2 class="logo">My Portfolio</h2>
+        </div>
+        <div class="content">
+            <p>This i</p>
+        </div>
+        <div class="form">
+            <form action="">
+                <div class="container">
+                  <h2>Regestration Form</h2>
+                  <form action="">
+                    <div class="form-group">
+                      <label for="name">Name</label>
+                      <input type="text" />
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" />
+                    </div>
+                    <div class="form-group">
+                      <label for="password">Password</label>
+                      <input type="password" />
+                    </div>
+                    <div class="form-group">
+                      <label for="comfirm password">Comfirm Password</label>
+                      <input type="password" />
+                    </div>
+                    <button type="submit" class="regesterbtn">regester</button>
+                  </form>
+        </div>
+    </div>
+   </div>
+</body>
+</html>
