@@ -5,119 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Experience</title>
     <style>
-         * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-        body {
-            background: beige;
-            text-align: center;
-            background: url(/images/inshaala.jpg) no-repeat center;
-            background-size: cover;
-        }
-        header {
-            background: rgba(0, 0, 0, 0.8);
-            color: white;
-            padding: 15px;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            left: 0;
-        }
-        .nav-links {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-        }
-        .nav-links li {
-            display: inline;
-        }
-        .nav-links a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .hero {
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            padding: 20px;
-        }
-        .chess{
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            padding: 20px;
-        }
-        .future {
-            width: 150px;
-            margin-top: 200px;
-        }
-        ul{
-    list-style-type: none;
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-ul li a{
-    text-decoration: none;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    transition: 0.4s ease-in-out;
-}
-ul li a:hover{
-    color: orange;
-}
-.future a:hover{
-    color: orange;
-
-}
-
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+      body {
+        background: beige;
+        text-align: center;
+        background: url('/images/simple3.jpg') no-repeat center;
+        background-size: cover;
+      }
+      header {
+        background: rgba(0, 0, 0, 0.8);
+        color: white;
+        padding: 15px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        text-align: center;
+      }
+      .nav-links {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px;
+      }
+      .nav-links li {
+        display: inline;
+      }
+      .nav-links a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .content {
+        margin-top: 100px;
+        padding: 20px;
+        color: white;
+      }
+      .hero, .chess {
+        margin: 50px 0;
+      }
+      .future {
+        width: 150px;
+        margin-top: 20px;
+      }
+      .image-section {
+        margin-top: 50px;
+      }
+      .image-section img {
+        width: 300px;
+        height: auto;
+        margin: 20px;
+        border-radius: 10px;
+      }
     </style>
   </head>
   <body>
     <header>
       <h1>My Passion for Manchester United</h1>
       <ul class="nav-links">
-        <li><a href="About me.html">About</a></li>
-        <li><a href="Education.html">Education</a></li>
-        <li><a href="Interest.html">Interest</a></li>
+        <li><a href="about-me.html">Home</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="interest.html">Interest</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </header>
-    <section class="hero">
-      <h2>Football Experience</h2>
-      <p>
-        In my football Experience, i was the best in the world atleast to my
-        mind
-      </p>
-    </section>
-    <section class="chess">
-      <h2>Chess Experience</h2>
-      <pre>
-        Football and chess might seem like opposites, but they’ve taught me the
-        same lessons—strategy, patience, and handling pressure. As a goalkeeper,
-        every decision matters. One wrong move, and it’s a goal conceded. The
-        same goes for chess—one miscalculation, and the game slips away. Winning
-        regionals in chess twice, finishing 10th in the nationals, and earning
-        gold medals in other competitions have all reinforced the importance of
-        discipline and consistency. Being named Keeper of the Year was a huge
-        moment for me, proving that hard work pays off. Whether on the field or
-        at the chessboard, success comes down to thinking ahead, staying
-        focused, and constantly improving.
-      </pre>
-      <a href="https://www.chess.com/" target="_blank">chess<img src="/images/thefuture.jpg" alt="chess" class="future"></a>
-    </section>
+    <div class="content">
+      <div class="hero">
+        <h2>Football Experience</h2>
+        <p>In my football experience, I was the best in the world—at least in my mind.
+          It was always important to concentrate through out the game as my position is the most crucial in footbal
+        </p>
+        <p><em>"A goalkeeper cannot win a match, he can only save it." – Lev Yashin</em></p>
+      </div>
+      <div class="chess">
+        <h2>Chess Experience</h2>
+        <p>
+       In my experience in chess I've learnt to stay focused and concentrate all the time as you end up chocking your opponent slowly untill he's done
+        </p>
+        <a href="https://www.chess.com/" target="_blank">chess <img src="/images/thefuture.jpg" alt="chess" class="future"></a>
+      </div>
+      <div class="image-section">
+        <h3>Football Moments</h3>
+        <a href="interest.html"><img src="/images/jesus.jpg" alt="Kaka's Celebration"></a>
+        <a href="interest.html"><img src="/images/made-in-milan.jpg" alt="Milan Derby Moment"></a>
+      </div>
+    </div>
   </body>
 </html>

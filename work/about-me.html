@@ -3,177 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-<style>
-    *{
-    margin: 0;
-    padding: 0;
-}
-
-.main {
-    width: 100%;
-    background-image: url(/images/oldtrafford.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    background-repeat: no-repeat;
-}
-.navbar{
-    width: 1200px;
-    height: 75px;
-    margin: auto;
-}
-.icon{
-    width: 200px;
-    float: left;
-    height: 70px;
-}
-.logo{
-    color: orange;
-    font-size: 35px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 20px;
-    float: left;
-    padding-top: 10px;
-    justify-content: right;
-}
-.menue {
-    width: 400px;
-    float: left;
-    height: 70px;
-}
-ul{
-    list-style-type: none;
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-ul li a{
-    text-decoration: none;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    transition: 0.4s ease-in-out;
-}
-ul li a:hover{
-    color: orange;
-}
-.container {
-                    background: fixed;
-                    width: 360px;
-                    padding: 20px;
-                    border-radius: 10px;
-                    text-align: left;
-                    margin-top: 140px;
-                
-                  }
-                  .form-group {
-                    margin-bottom: 15px;
-                    
-                  }
-                  .form-group input {
-                    width: 100%;
-                    font-size: 20px;
-                    border-radius: 7px;
-                  }
-                  .regesterbtn {
-                    width: 30%;
-                    background-color: blue;
-                    color: white;
-                    font-size: 18px;
-                    border-radius: 7px;
-                    padding: 7px;
-                    align-items: center;
-                  }
-                  .form-group label{
-                    color: white;
-                  }
-                  .container h2{
-                    color: white;
-                  }
-
-.nav-linnks {
-  list-style: none;
+    <title>About Me</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            height: 100vh;
+            background: url(/images/simple1.jpg) no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+        }
+        nav {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
             display: flex;
             justify-content: center;
-            gap: 20px
-}
-.nav-links li {
-            display: inline;
+            gap: 40px;
+            position: sticky;
+            top: 0;
         }
-        .nav-links a {
-            color: white;
+        nav a {
+            color: #fff;
             text-decoration: none;
             font-weight: bold;
+            transition: color 0.3s ease;
         }
-        ul{
-    list-style-type: none;
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-ul li a{
-    text-decoration: none;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    transition: 0.4s ease-in-out;
-    justify-content: center;
-}
-ul li a:hover{
-    color: orange;
-}
-nav h1{
-  background: fixed;
-}
-</style>
+        nav a:hover {
+            color: #1DB954;
+        }
+        .about-me {
+            margin-top: 100px;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 40px;
+            border-radius: 15px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .about-me h1 {
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+        .about-me p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+    </style>
 </head>
 <body>
-    <header class="nav">
-       <h1>This is my page</h1> 
-       <ul class="nav-links">
-        <li><a href="Education.html">Education</li>
-        <li><a href="Interest.html">Interest</a></li>
-        <li><a href="Experience.html">Experience</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </header>
-   <div class="main">
-     <div class="navbar">
-        <div class="icon">
-            <h2 class="logo">My Portfolio</h2>
-        </div>
-        <div class="content">
-            <p>This i</p>
-        </div>
-        <div class="form">
-            <form action="">
-                <div class="container">
-                  <h2>Regestration Form</h2>
-                  <form action="">
-                    <div class="form-group">
-                      <label for="name">Name</label>
-                      <input type="text" />
-                    </div>
-                    <div class="form-group">
-                      <label for="email">Email</label>
-                      <input type="email" />
-                    </div>
-                    <div class="form-group">
-                      <label for="password">Password</label>
-                      <input type="password" />
-                    </div>
-                    <div class="form-group">
-                      <label for="comfirm password">Comfirm Password</label>
-                      <input type="password" />
-                    </div>
-                    <button type="submit" class="regesterbtn">regester</button>
-                  </form>
-        </div>
+    <nav>
+        <a href="about-me.html">Home</a>
+        <a href="education.html">Education</a>
+        <a href="interest.html">Interest</a>
+        <a href="experience.html">Experience</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="about-me" id="about">
+        <h1>About Me</h1>
+        <p>
+            I'm Sam, a passionate developer who loves exploring new technologies and creating amazing projects. 
+            This is a simple 'About Me' page with a dynamic background and a sleek navbar.
+        </p>
     </div>
-   </div>
 </body>
 </html>

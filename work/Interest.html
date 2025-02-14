@@ -1,125 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Love for Manchester United</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Love for Manchester United & Chess</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-        body {
-            background: beige;
-            text-align: center;
-        }
-        header {
-            background: rgba(0, 0, 0, 0.8);
-            color: white;
-            padding: 15px;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            left: 0;
-        }
-        .nav-links {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-        }
-        .nav-links li {
-            display: inline;
-        }
-        .nav-links a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .hero {
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background: url(/images/manchester\ is\ red.jpg) no-repeat center;
-            background-size: cover;
-            color: white;
-            padding: 20px;
-        }
-        .hero h2 {
-            font-size: 40px;
-        }
-        .btn {
-            background: red;
-            padding: 10px 20px;
-            text-decoration: none;
-            color: white;
-            border-radius: 5px;
-            margin-top: 15px;
-            display: inline-block;
-        }
-        section {
-            padding: 50px;
-        }
-        .ronaldo-img {
-            width: 300px;
-            border-radius: 10px;
-            margin-top: 20px;
-        }
-        .manutd-logo {
-            width: 150px;
-            margin-top: 20px;
-        }
-        .my_button{
-            border-radius: 7px;
-            color: red;
-            text-align: center;
-            font-size: 15px;
-            font-family: Arial, Helvetica, sans-serif;
-
-           
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+      body {
+        background: url(/images/manchesterisred.jpg) no-repeat center center
+          fixed;
+        background-size: cover;
+        text-align: center;
+        color: #fff;
+      }
+      header {
+        background: rgba(0, 0, 0, 0.85);
+        color: white;
+        padding: 20px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+      }
+      .nav-links {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+      }
+      .nav-links li {
+        display: inline;
+      }
+      .nav-links a {
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        transition: color 0.3s ease;
+      }
+      .nav-links a:hover {
+        color: #e63946;
+      }
+      .hero {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-shadow: 2px 2px 5px #000;
+        padding: 20px;
+      }
+      .hero h2 {
+        font-size: 48px;
+        margin-bottom: 20px;
+      }
+      .content {
+        padding: 60px 20px;
+        background: rgba(0, 0, 0, 0.6);
+        margin: 20px auto;
+        border-radius: 15px;
+        max-width: 800px;
+      }
+      .ronaldo-img,
+      .manutd-logo {
+        width: 300px;
+        border-radius: 15px;
+        margin-top: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>My Passion for Manchester United</h1>
-        <ul class="nav-links">
-            <li><a href="About me.html">About</a></li>
-            <li><a href="Education.html">Education</a></li>
-            <li><a href="Experience.html">Experience</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+      <h1>My Passion for Manchester United & Chess</h1>
+      <ul class="nav-links">
+        <li><a href="about-me.html">Home</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="experience.html">Interest</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
     </header>
 
-    <section class="hero">
-        <h2>Welcome to Old Trafford</h2>
-        <p>The Theater of Dreams - Home of Manchester United</p>
-        <a href="#manutd" class="btn">Learn More</a>
-    </section>
+    <div class="hero">
+      <h2>Welcome to My World</h2>
+      <p>Football & Chess - Two Passions, One Life</p>
+    </div>
 
-    <section id="about">
-        <h2>Why I Love Football</h2>
-        <p>Football is more than just a game; it's a passion, a way of life. The excitement of the game, the skills of the players, and the emotions it brings make it truly special.</p>
-    </section>
+    <div id="manutd" class="content">
+      <h2>My Favorite Team: Manchester United</h2>
+      <p>
+        Manchester United is the greatest football club in the world,and noone can tell me otherwise
+        love it or hate it man u are the best.
+      </p>
+      <a href="https://www.manutd.com" target="_blank">
+        <img
+          src="/images/thefuture.jpg"
+          alt="Manchester United Players"
+          class="manutd-logo"
+        />
+      </a>
+    </div>
 
-    <section id="ronaldo">
-        <h2>My Favorite Player: Cristiano Ronaldo</h2>
-        <p>Cristiano Ronaldo is one of the greatest footballers of all time. His dedication, hard work, and incredible skills inspire me every day.</p>
-        <img src="/images/cr7-man u.jpg" alt="Cristiano Ronaldo" class="ronaldo-img">
-    </section>
+    <div id="ronaldo" class="content">
+      <h2>My Favorite Player: Cristiano Ronaldo</h2>
+      <p>
+        Cristiano Ronaldo is the GOAT yes above Messi n all the other clowns.
+        <b>MR CHAMPIONS LEAGUE</b>.
+      </p>
+      <img
+        src="/images/cr7-man u.jpg"
+        alt="Cristiano Ronaldo"
+        class="ronaldo-img"
+      />
+    </div>
 
-    <section id="manutd">
-        <h2>My Favorite Team: Manchester United</h2>
-        <p>Manchester United is the greatest football club in the world, with a rich history, legendary players, and a winning mentality.</p>
-        <img src="/images/man-u-statchue.jpg" alt="Manchester United Logo" class="manutd-logo">
-    </section>
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <button class="my_button"><p>Email: uri@gmail.com</p></button>
-    </section>
-</body>
+    <div id="chess" class="content">
+      <h2>My Love for Chess</h2>
+      <p>
+        Chess is a game used to play to pass time but turns out i became good enough to win medals even at the nationals level.
+      </p>
+      <a href="https://www.chess.com" target="_blank">
+        <img src="/images/chess.jpg" alt="Chess Board" class="ronaldo-img" />
+      </a>
+    </div>
+
+    <div id="contact" class="content">
+      <h2>Contact Me</h2>
+      <a href="sam@gmail.com" class="my_button">Email Me</a>
+    </div>
+  </body>
 </html>
